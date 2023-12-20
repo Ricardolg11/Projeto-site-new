@@ -16,3 +16,24 @@ document.addEventListener('DOMContentLoaded', function () {
         },
     });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Adicione um ouvinte de evento para cada link que rolará suavemente
+    const smoothScrollLinks = document.querySelectorAll('a[href^="#"]');
+    
+    smoothScrollLinks.forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+
+            if (targetElement) {
+                // Use o método scrollIntoView para rolar suavemente até o elemento alvo
+                targetElement.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+});
