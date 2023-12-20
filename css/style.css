@@ -1,0 +1,211 @@
+/* Reset de estilos para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: "Sans-serif", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ffffff;
+    overflow-x: hidden;
+    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    transition: 1s;
+}
+
+header {
+    background-color: #ff8800;
+    color: #ffffff;
+    padding: 10px 0;
+    transition: 1s;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 80px;
+    margin-right: 10px;
+}
+
+span{
+    color: #000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+
+.slide-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+    transition: 1s;
+}
+
+.swiper-pagination {
+    position: static;
+} 
+
+.principal{
+    color: black;
+    text-align: center;
+}
+
+#main-content {
+    display: flex;
+    flex-wrap: wrap;
+    transition: 1s;
+}
+
+.featured, .news, .more-news {
+    flex: 1;
+    margin: 0 10px 20px 0;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.featured img, .news img, .more-news img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text {
+    padding: 15px;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #ffffff;
+    padding: 15px;
+    transition: 1s;
+}
+
+footer {
+    background-color: #ff8800;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos adicionais para a parte adicional de notícias */
+.more-news h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.more-news p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Adicione regras de mídia para responsividade geral */
+@media only screen and (max-width: 768px) {
+    .container {
+    width: 90%;
+    transition: 1s;
+    }
+
+    header {
+    padding: 10px;
+    transition: 1s;
+    }
+
+    .swiper-container {
+    height: 300px;
+      transition: 1s;
+    }
+  
+    .swiper-slide img {
+      height: 100%;
+      transition: 1s;
+    }
+  
+    .slide-caption {
+      top: 70%;
+      transition: 1s;
+    }
+  
+    #main-content {
+    flex-direction: column;
+    transition: 1s;
+    }
+  
+    .more-news, .featured, .news {
+      margin-right: 0;
+      transition: 1s;
+    }
+  
+    .sidebar {
+      width: 100%;
+      transition: 1s;
+    }
+  }
+  
+  /* Adicione regras de mídia específicas para telas de iPhone */
+  @media only screen and (max-width: 375px) {
+    /* Pode ajustar os estilos conforme necessário para telas de iPhone */
+    .container {
+      width: 100%;
+      transition: 1s;
+    }
+  
+    .swiper-container {
+      height: 200px;
+      transition: 1s;
+    }
+  
+    .swiper-slide img {
+      height: 100%;
+      transition: 1s;
+    }
+  
+    .slide-caption {
+      top: 60%;
+      transition: 1s;
+    }
+  }
