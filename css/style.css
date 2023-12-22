@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 body {
@@ -51,7 +50,6 @@ nav ul {
     margin: 0;
     padding: 0;
     cursor: pointer;
-    
 }
 
 nav ul li {
@@ -99,7 +97,6 @@ nav a {
 }
 
 a {
-
     transition: color 0.3s ease-in-out;
 }
 
