@@ -20,7 +20,7 @@ body {
 }
 
 header {
-    position: sticky;
+    position: static;
     background-color: #ff8800;
     color: #ffffff;
     padding: 10px 0;
