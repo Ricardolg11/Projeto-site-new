@@ -126,12 +126,41 @@ a:hover {
 .text {
     padding: 15px;
 }
+.perfil-foto-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.perfil-foto img {
+    margin-left: 435px;
+    width: 126px;
+    height: 126px;
+    margin-top: 0px;
+    padding: 20px;
+    border: 4px solid var(--fundo-card);
+    border-radius: 50%;
+}
+
+.perfil-notificacao {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    transition: 0.25s ease;
+    cursor: pointer;
+}
 
 .sidebar {
     width: 30%;
     background-color: #ffffff;
     padding: 15px;
     transition: 1s;
+}
+
+.p{
+    text-align: left;
+}
+.sobre{
+    color: #ff8800;
+    text-align: center;
 }
 
 footer {
@@ -181,6 +210,14 @@ footer {
     transition: 1s;
     }
 
+    .perfil-foto img {
+        margin-left: 223px;
+    }
+    
+    .sobre-nome{
+        font-size: 25px;
+    }
+    
     .slide-caption {
     top: 70%;
     transition: 1s;
