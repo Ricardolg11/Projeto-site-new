@@ -239,12 +239,16 @@ footer {
     width: 100%;
     transition: 1s;
     }
+    footer {
+        width: 768px;
+    }
+    
 }
 
 @media only screen and (max-width: 508px) {
 
     h1{
-    font-size: 30px;
+    font-size: 20px;
     }
 
     .swiper-container {
@@ -264,6 +268,9 @@ footer {
     .sobre-nome{
         font-size: 25px;
     }
+    footer {
+        width: 508px;
+    }
     
     
 }
@@ -280,7 +287,11 @@ footer {
     height: 200px;
     transition: 1s;
     }
-  
+
+
+    .h1{
+        font-size: 20px;
+    }
     .swiper-slide img {
     height: 100%;
     transition: 1s;
@@ -290,4 +301,10 @@ footer {
     top: 60%;
     transition: 1s;
     }
+
+    footer {
+        width: 375px;
+    }
+    
+    
 }
