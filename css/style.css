@@ -37,6 +37,11 @@ header {
     margin-right: 10px;
 }
 
+.logo2{
+    position: relative;
+    width:32%;
+    left: 32%;
+}
 span{
     color: #000000;
 }
@@ -205,6 +210,9 @@ footer {
     font-size: 30px;
     }
 
+    .logo2{
+        width:50%;
+    }
     .swiper-container {
     height: 300px;
     transition: 1s;
@@ -266,6 +274,11 @@ footer {
     transition: 1s;
     }
 
+    .logo2{
+        width:50%;
+        left: 26%;
+
+    }
     .perfil-foto img {
         margin-left: 113px;
     }
@@ -299,6 +312,10 @@ footer {
     .swiper-slide img {
     height: 100%;
     transition: 1s;
+    }
+    .perfil-foto img {
+        position: relative;
+        align-items: center;
     }
 
     .slide-caption {
