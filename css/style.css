@@ -242,7 +242,7 @@ footer {
     transition: 1s;
     }
     footer {
-        width: 768px;
+        width: 100%;
     }
     
 }
@@ -252,7 +252,6 @@ footer {
     h1{
     font-size: 20px;
     }
-
     .swiper-container {
     height: 300px;
     transition: 1s;
@@ -270,10 +269,6 @@ footer {
     .sobre-nome{
         font-size: 25px;
     }
-    footer {
-        width: 508px;
-    }
-    
     
 }
 
@@ -304,9 +299,7 @@ footer {
     transition: 1s;
     }
 
-    footer {
-        width: 375px;
-    }
+  
     
     
 }
