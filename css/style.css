@@ -4,9 +4,8 @@
 }
 
 body {
-    overflow: visible;
+    position: relative;
     overflow-x: hidden;
-    position: static;
     font-family: "Sans-serif", sans-serif;
     font-size: 16px;
     line-height: 1.6;
@@ -188,6 +187,9 @@ footer {
 
 /* Adicione regras de mídia para responsividade geral */
 @media only screen and (max-width: 768px) {
+    .boby{
+        position: static;
+    }
     .container {
     width: 90%;
     transition: 1s;
