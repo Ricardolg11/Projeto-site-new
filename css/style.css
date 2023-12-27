@@ -212,6 +212,7 @@ footer {
 
     .logo2{
         width:50%;
+        left: 32%;
     }
     .swiper-container {
     height: 300px;
@@ -274,11 +275,6 @@ footer {
     transition: 1s;
     }
 
-    .logo2{
-        width:50%;
-        left: 26%;
-
-    }
     .perfil-foto img {
         margin-left: 113px;
     }
@@ -312,10 +308,6 @@ footer {
     .swiper-slide img {
     height: 100%;
     transition: 1s;
-    }
-    .perfil-foto img {
-        position: relative;
-        align-items: center;
     }
 
     .slide-caption {
