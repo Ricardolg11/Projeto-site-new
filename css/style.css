@@ -16,6 +16,7 @@ body {
 }
 
 .container {
+    position: static;
     width: 80%;
     margin: 0 auto;
     transition: 1s;
@@ -147,7 +148,7 @@ a:hover {
 }
 .perfil-foto img {
     display: flex;
-    margin-left: 435px;
+    margin-left: 465px;
     width: 126px;
     height: 126px;
     margin-top: 0px;
@@ -221,7 +222,7 @@ footer {
 
     .logo2{
         width:50%;
-        left: 32%;
+        left: 30%;
     }
     .swiper-container {
     height: 300px;
