@@ -1,10 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    position: static;
+    justify-content: center;
     overflow-x: hidden;
     font-family: "Sans-serif", sans-serif;
     font-size: 16px;
@@ -69,12 +70,14 @@ nav a {
 }
 
 .swiper-container {
+    display: flex;
     background-position: fixed;
     width: 100%;
     height: 400px;
     margin-bottom: 20px;
     transition: 1s;
 }
+
 
 .swiper-slide img {
     width: 100%;
@@ -96,6 +99,11 @@ nav a {
 .swiper-pagination {
     position: relative;
 } 
+
+.slide2{
+    display: none;
+}
+
 
 .principal{
     color: #ff8800;
@@ -224,6 +232,7 @@ footer {
     transition: 1s;
     }
 
+
     .perfil-foto img {
         margin-left: 223px;
     }
@@ -306,9 +315,9 @@ footer {
         font-size: 20px;
     }
     .swiper-slide img {
-    height: 100%;
-    transition: 1s;
-    }
+        height: 100%;
+        transition: 1s;
+        }
 
     .slide-caption {
     top: 60%;
