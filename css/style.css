@@ -5,6 +5,7 @@
 }
 
 body {
+    position: static;
     justify-content: center;
     overflow-x: hidden;
     font-family: "Sans-serif", sans-serif;
