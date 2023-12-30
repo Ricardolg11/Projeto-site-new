@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Inicialize o Swiper quando o conteúdo da página estiver totalmente carregado
     let mySwiper = new Swiper('.swiper-container', {
-        // Swiper
+        // Swiper impedir a rolagem lateral 
+        slidesPerView: 'auto',
         loop: true,
         autoplay: {
             delay: 3000, // 3 segundos
@@ -15,9 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
             prevEl: '.swiper-button-prev',
         },
     });
-});
 
-document.addEventListener('DOMContentLoaded', function () {
     // Adicione um ouvinte de evento para cada link que rolará suavemente
     const smoothScrollLinks = document.querySelectorAll('a[href^="#"]');
     
@@ -36,4 +35,4 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
-}); 
+});
