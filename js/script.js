@@ -1,3 +1,5 @@
+
+
 document.addEventListener('DOMContentLoaded', function () {
     // Inicialize o Swiper quando o conteúdo da página estiver totalmente carregado
     let mySwiper = new Swiper('.swiper-container', {
