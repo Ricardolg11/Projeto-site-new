@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
         slidesPerView: 'auto',
         loop: true,
         autoplay: {
-            delay: 3000, // 3 segundos
+            delay: 2500, // 3 segundos
         },
         pagination: {
             el: '.swiper-pagination',
