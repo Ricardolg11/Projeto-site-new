@@ -115,7 +115,7 @@ a {
 }
 
 a:hover {
-    color: #1a1a1a; /* Ou a cor desejada */
+    color: #1a1a1a;
 }
 
 #main-content {
@@ -188,7 +188,6 @@ footer {
     width: 100%;
 }
 
-/* Estilos adicionais para a parte adicional de notícias */
 .more-news h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
@@ -199,7 +198,6 @@ footer {
     color: #555;
 }
 
-/* Adicione regras de mídia para responsividade geral */
 @media only screen and (max-width: 768px) {
     .boby{
     position: static;
@@ -286,7 +284,6 @@ footer {
 
   /* Adicione regras de mídia específicas para telas de iPhone */
 @media only screen and (max-width: 375px) {
-    /* Pode ajustar os estilos conforme necessário para telas de iPhone */
 
     body{
         position: static;
